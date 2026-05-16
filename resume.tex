@@ -1,0 +1,203 @@
+\documentclass[letterpaper,11pt]{article}
+  
+  \usepackage{latexsym}
+  \usepackage[empty]{fullpage}
+  \usepackage{titlesec}
+  \usepackage{marvosym}
+  \usepackage[usenames,dvipsnames]{color}
+  \usepackage{verbatim}
+  \usepackage{enumitem}
+  \usepackage[hidelinks]{hyperref}
+  \usepackage{fancyhdr}
+  \usepackage[english]{babel}
+  \usepackage{tabularx}
+  \input{glyphtounicode}
+  \usepackage{fontawesome5}
+  
+  \pagestyle{fancy}
+  \fancyhf{} 
+  \fancyfoot{}
+  \renewcommand{\headrulewidth}{0pt}
+  \renewcommand{\footrulewidth}{0pt}
+  
+  % Adjust margins
+  \addtolength{\oddsidemargin}{-0.5in}
+  \addtolength{\evensidemargin}{-0.5in}
+  \addtolength{\textwidth}{1in}
+  \addtolength{\topmargin}{-.5in}
+  \addtolength{\textheight}{1.0in}
+  
+  \urlstyle{same}
+  
+  \raggedbottom
+  \raggedright
+  \setlength{\tabcolsep}{0in}
+  
+  % Sections formatting - FIXED SPELLING TO TITLERULE
+  \titleformat{\section}{
+    \vspace{-4pt}\scshape\raggedright\large
+  }{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  
+  \pdfgentounicode=1
+  
+  %-------------------------
+  % Custom commands - ALL ORIGINAL MACROS RESTORED EXACTLY
+  \newcommand{\resumeItem}[1]{
+    \item\small{
+      {#1 \vspace{-2pt}}
+    }
+  }
+  
+  \newcommand{\resumeSubheading}[4]{
+    \vspace{-2pt}\item
+      \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+        \textbf{#1} & #2 \\
+        \textit{\small#3} & \textit{\small #4} \\
+      \end{tabular*}\vspace{-7pt}
+  }
+  
+  \newcommand{\resumeSubSubheading}[2]{
+      \item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \textit{\small#1} & \textit{\small #2} \\
+      \end{tabular*}\vspace{-7pt}
+  }
+  
+  \newcommand{\resumeProjectHeading}[2]{
+      \item
+      \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+        \small#1 & #2 \\
+      \end{tabular*}\vspace{-7pt}
+  }
+  
+  \newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+  
+  \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+  
+  \newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+  \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+  \newcommand{\resumeItemListStart}{\begin{itemize}}
+  \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+  
+  %-------------------------------------------
+  \begin{document}
+  
+  %----------HEADING----------
+  \begin{center}
+      \textbf{\Huge \scshape Urwah Muhammad Sajjad} \\ \vspace{2pt}
+      \textbf{Full-Stack Product Engineer} \\ \vspace{2pt}
+      \faPhone* \small +966534600924 
+      \faMapMarker* Saudi Arabia / Pakistan \\ \vspace{1pt}
+      \faEnvelope[regular] \href{mailto:usajjad@hotmail.co.uk}{\underline{usajjad@hotmail.co.uk}}
+      \faLinkedinIn[regular] \href{https://www.linkedin.com/in/urwah-sajjad-9b587470/}{\underline{/in/urwah-sajjad-9b587470/}}
+      \faGithub[regular] \href{https://github.com/usajjad123}{\underline{github.com/usajjad123}}
+  \end{center}
+  
+  \section{Professional Summary}
+  Product-Focused Full-Stack Engineer with 6+ years of experience building high-performance, user-facing products in high-ownership startup environments. Expert in React, TypeScript, and Node.js, with a track record of leading development from complex backend architecture to polished UI/UX. Proven ability to thrive in fully remote, async teams, turning vague product concepts into stable, engaging features for diverse user bases.
+  
+  \section{Experience}
+    \resumeSubHeadingListStart
+    
+      \resumeSubheading
+        {Seed Labs (Bluefin)}{Aug 2025 -- Present}
+        {Senior Software Engineer}{Canada, Remote}
+        \resumeItemListStart
+          \resumeItem{Redesigned an acquired DEX aggregator by introducing a reader/writer architecture with Redis, bringing infrastructure costs down from an estimated \$30–40K/month to about \$3K/month within 2 weeks.}\n  \resumeItem{Iterated on Smart Order Routing across 5 versions, reducing P95 latency from 1.2s to 250ms and improving win rate against a leading competitor from 17\% to over 60\%.}\n  \resumeItem{Integrated new AMM partners end-to-end, covering SDKs, APIs, and UI integration.}\n  \resumeItem{Worked on the Bluefin Spot UI redesign using React and TypeScript.}\n  \resumeItem{Contributed to a new project on Canton Network, building APIs to surface market maker quotes and enabling secure fund transfers.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {Foundry (YC 24)}{Mar 2025 -- Aug 2025}
+        {Full Stack Engineer}{US, Remote}
+        \resumeItemListStart
+          \resumeItem{Created a Gmail simulation for browser-based AI agents, enabling the testing of email workflows such as reading threads, and sending emails in a controlled environment.}\n  \resumeItem{Built a Playground page showcasing available simulated platforms (e.g., Gmail, Apollo, LinkedIn) so clients could preview the environments the AI agent would interact with.}\n  \resumeItem{Created a centralized data warehouse to provide consistent datasets across simulated platforms (e.g., Gmail, LinkedIn, Apollo).}\n  \resumeItem{Built Foundry's client-facing annotation platform from scratch, enabling creation, assignment, and execution of complex browser-based tasks.}\n  \resumeItem{Developed evaluation and reviewer pages where clients could watch execution recordings and assess results against organization-specific criteria.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {Qureos}{Jan 2022 -- Mar 2025}
+        {Senior Fullstack / Product Engineer}{UAE, Remote}
+        \resumeItemListStart
+          \resumeItem{Developed and shipped an AI-driven candidate screening system using React-based workflows, improving engagement by 25\% in top-of-funnel acquisition.}\n  \resumeItem{Spearheaded the development of an AI-powered job description generator, leading to an additional \$4,000 in annual revenue through white-labeling.}\n  \resumeItem{Contributed to the product side of Qureos, collaborating with the customer success team to prioritize and implement client requests, and converting 3 clients to pay for quarterly subscriptions.}\n  \resumeItem{Integrated Stripe to securely store multiple payment methods, processing over 50 transactions per month.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {Breaktout Mentors}{Sep 2022 -- May 2024}
+        {USACO Mentor}{US/Singapore, Remote}
+        \resumeItemListStart
+          \resumeItem{Mentored high school students in USACO with a focus on algorithms and competitive problem solving.}\n  \resumeItem{Helped two students progress from Bronze to Gold level through weekly sessions and personalized guidance.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {Remotebase}{Jan 2022 -- Jun 2024}
+        {Software Engineer II}{US, Remote}
+        \resumeItemListStart
+          \resumeItem{Contributed as one of the first engineers on a client project, shaping core features and establishing early trust.}\n  \resumeItem{Handled an average of 5 major features per month, with less than 10\% issues found enabling faster development to production release cycle.}\n  \resumeItem{Developed responsive web pages using TailwindCSS, enhancing cross-device user experience.}\n  \resumeItem{Built and deployed a "For You" job recommendation algorithm, achieving a 7\% CTR over 8 months.}\n  \resumeItem{Integrated reCAPTCHA v3, reducing spam by 72\% on public endpoints.}\n  \resumeItem{Built a React-based admin portal for talent operations, enabling efficient CV reviews and reducing hiring process time by 60\%.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {Algorack}{Jan 2020 -- Dec 2021}
+        {Web Developer}{Karachi, PK}
+        \resumeItemListStart
+          \resumeItem{Developed complex D3 charts and custom SVG solutions, enhancing data visualization capabilities.}\n  \resumeItem{Designed and built a short-term drone simulator using Three.js and Vue.js, incorporating mathematical models to educate children in programming.}
+        \resumeItemListEnd
+      \vspace{6pt}
+    
+    \resumeSubHeadingListEnd
+  
+  \section{Projects}
+    \resumeSubHeadingListStart
+    
+      \resumeProjectHeading
+        {\href{https://www.wave.tickets/}{\underline{\textbf{Wave.tickets}}}}{Jun 2024 -- Oct 2024}
+        \resumeItemListStart
+          \resumeItem{Developed an AI-powered SMS ticket booking system using NestJS, OpenAI, and LangChain, allowing users to book tickets seamlessly through text messages.}\n  \resumeItem{Deployed the Wave.tickets AI server on AWS using command-line tools, handling infra setup end-to-end.}
+        \resumeItemListEnd
+    \n
+      \resumeProjectHeading
+        {\href{}{\underline{\textbf{Ant Colony Optimization}}}}{Dec 2023 -- Jan 2024}
+        \resumeItemListStart
+          \resumeItem{Developed a 3D visualization of the Ant Colony Optimization algorithm on a 2D plane using Three.js.}\n  \resumeItem{Simulated real-time ant movement and pheromone trails to demonstrate algorithm dynamics.}
+        \resumeItemListEnd
+    
+    \resumeSubHeadingListEnd
+  
+  \section{Education/Certificates}
+    \resumeSubHeadingListStart
+    
+      \resumeSubheading
+        {Bachelor of Science in Computer Science}{Oct. 2017 -- Aug 2021}
+        {Mohammad Ali Jinnah University}{Karachi, PK}
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {\href{https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/308662183621724/}{\underline{\textbf{Hacker Cup 2021}}}}{Oct 2021}
+        {Facebook}{}
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {\href{https://icpc.global/ICPCID/MH93ISJ2HJ3A/}{\underline{\textbf{ICPC Asia Topi Regional}}}}{Sep 2021}
+        {ICPC}{}
+      \vspace{6pt}
+    \n
+      \resumeSubheading
+        {\href{https://www.hackerrank.com/certificates/5a1182602eda/}{\underline{\textbf{Problem Solving (Advanced)}}}}{Sep 2020}
+        {Hackerrank}{}
+      \vspace{6pt}
+    
+    \resumeSubHeadingListEnd
+  
+  \section{Technical Skills}
+   \begin{itemize}[leftmargin=0.15in, label={}]
+      \small{\item{
+       \textbf{Languages}{: Rust, TypeScript, JavaScript, Python, SQL} \\
+       \textbf{Frameworks/Libraries}{: React, Next.js, Node.js, Nest.js, TailwindCSS, D3.js, Three.js, LangChain} \\
+       \textbf{Infrastructure}{: Redis, Docker, Terraform, AWS, Sentry, GitHub Actions} \\
+      }}
+   \end{itemize}
+  
+  \end{document}

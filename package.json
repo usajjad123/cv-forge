@@ -1,0 +1,13 @@
+{
+  "name": "cv-forge",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "ts-node src/builder.ts && pdflatex resume.tex"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.21",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
