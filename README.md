@@ -27,3 +27,21 @@ cv-forge/
 ├── package.json            # Scripts & build tooling
 ├── tsconfig.json           # TS environment configurations
 └── .gitignore              # Keeps node_modules & build artifacts away from cloud
+
+# 1. Install Node.js dependencies
+npm install
+
+# 2. Install lightweight LaTeX engine on macOS via Homebrew
+brew install --cask basictex
+
+# Note: RESTART YOUR TERMINAL after installing BasicTeX to refresh your system PATH.
+
+# 3. Update TeX Live manager and install layout design packages (houses fullpage, titlesec, etc.)
+sudo tlmgr update --self
+sudo tlmgr install preprint titlesec marvosym enumitem fontawesome5
+
+# 4. Run the TypeScript pipeline to convert your data/resume.json into resume.tex
+npm run build
+
+# 5. Compile the raw LaTeX artifact directly into your final resume.pdf
+pdflatex resume.tex
