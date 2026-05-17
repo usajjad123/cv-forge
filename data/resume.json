@@ -1,142 +1,170 @@
 {
-    "basics": {
-      "name": "Urwah Muhammad Sajjad",
-      "title": "Full-Stack Product Engineer",
-      "phone": "+966534600924",
-      "email": "usajjad@hotmail.co.uk",
-      "location": "Saudi Arabia / Pakistan",
-      "linkedin": "https://www.linkedin.com/in/urwah-sajjad-9b587470/",
-      "github": "https://github.com/usajjad123"
+  "basics": {
+    "name": "Urwah Muhammad Sajjad",
+    "title": "Full-Stack Product Engineer",
+    "phone": "+966534600924",
+    "email": "usajjad@hotmail.co.uk",
+    "location": "Saudi Arabia / Pakistan",
+    "linkedin": "https://www.linkedin.com/in/urwah-sajjad-9b587470/",
+    "github": "https://github.com/usajjad123"
+  },
+  "summary": "Product-Focused Full-Stack Engineer with 6+ years of experience building high-performance, user-facing products in high-ownership startup environments. Expert in React, TypeScript, and Node.js, with a track record of leading development from complex backend architecture to polished UI/UX. Proven ability to thrive in fully remote, async teams, turning vague product concepts into stable, engaging features for diverse user bases.",
+  "experience": [
+    {
+      "company": "Seed Labs (Bluefin)",
+      "position": "Senior Software Engineer",
+      "location": "Canada, Remote",
+      "date": "Aug 2025 -- Present",
+      "highlights": [
+        "Redesigned an acquired DEX aggregator by introducing a reader/writer architecture with Redis, bringing infrastructure costs down from an estimated $30–40K/month to about $3K/month within 2 weeks.",
+        "Iterated on Smart Order Routing across 5 versions, reducing P95 latency from 1.2s to 250ms and improving win rate against a leading competitor from 17% to over 60%.",
+        "Integrated new AMM partners end-to-end, covering SDKs, APIs, and UI integration.",
+        "Worked on the Bluefin Spot UI redesign using React and TypeScript.",
+        "Contributed to a new project on Canton Network, building APIs to surface market maker quotes and enabling secure fund transfers."
+      ]
     },
-    "summary": "Product-Focused Full-Stack Engineer with 6+ years of experience building high-performance, user-facing products in high-ownership startup environments. Expert in React, TypeScript, and Node.js, with a track record of leading development from complex backend architecture to polished UI/UX. Proven ability to thrive in fully remote, async teams, turning vague product concepts into stable, engaging features for diverse user bases.",
-    "experience": [
-      {
-        "company": "Seed Labs (Bluefin)",
-        "position": "Senior Software Engineer",
-        "location": "Canada, Remote",
-        "date": "Aug 2025 -- Present",
-        "highlights": [
-          "Redesigned an acquired DEX aggregator by introducing a reader/writer architecture with Redis, bringing infrastructure costs down from an estimated $30–40K/month to about $3K/month within 2 weeks.",
-          "Iterated on Smart Order Routing across 5 versions, reducing P95 latency from 1.2s to 250ms and improving win rate against a leading competitor from 17% to over 60%.",
-          "Integrated new AMM partners end-to-end, covering SDKs, APIs, and UI integration.",
-          "Worked on the Bluefin Spot UI redesign using React and TypeScript.",
-          "Contributed to a new project on Canton Network, building APIs to surface market maker quotes and enabling secure fund transfers."
-        ]
-      },
-      {
-        "company": "Foundry (YC 24)",
-        "position": "Full Stack Engineer",
-        "location": "US, Remote",
-        "date": "Mar 2025 -- Aug 2025",
-        "highlights": [
-          "Created a Gmail simulation for browser-based AI agents, enabling the testing of email workflows such as reading threads, and sending emails in a controlled environment.",
-          "Built a Playground page showcasing available simulated platforms (e.g., Gmail, Apollo, LinkedIn) so clients could preview the environments the AI agent would interact with.",
-          "Created a centralized data warehouse to provide consistent datasets across simulated platforms (e.g., Gmail, LinkedIn, Apollo).",
-          "Built Foundry's client-facing annotation platform from scratch, enabling creation, assignment, and execution of complex browser-based tasks.",
-          "Developed evaluation and reviewer pages where clients could watch execution recordings and assess results against organization-specific criteria."
-        ]
-      },
-      {
-        "company": "Qureos",
-        "position": "Senior Fullstack / Product Engineer",
-        "location": "UAE, Remote",
-        "date": "Jan 2022 -- Mar 2025",
-        "highlights": [
-          "Developed and shipped an AI-driven candidate screening system using React-based workflows, improving engagement by 25% in top-of-funnel acquisition.",
-          "Spearheaded the development of an AI-powered job description generator, leading to an additional $4,000 in annual revenue through white-labeling.",
-          "Contributed to the product side of Qureos, collaborating with the customer success team to prioritize and implement client requests, and converting 3 clients to pay for quarterly subscriptions.",
-          "Integrated Stripe to securely store multiple payment methods, processing over 50 transactions per month."
-        ]
-      },
-      {
-        "company": "Breaktout Mentors",
-        "position": "USACO Mentor",
-        "location": "US/Singapore, Remote",
-        "date": "Sep 2022 -- May 2024",
-        "highlights": [
-          "Mentored high school students in USACO with a focus on algorithms and competitive problem solving.",
-          "Helped two students progress from Bronze to Gold level through weekly sessions and personalized guidance."
-        ]
-      },
-      {
-        "company": "Remotebase",
-        "position": "Software Engineer II",
-        "location": "US, Remote",
-        "date": "Jan 2022 -- Jun 2024",
-        "pagebreak": true,
-        "highlights": [
-          "Contributed as one of the first engineers on a client project, shaping core features and establishing early trust.",
-          "Handled an average of 5 major features per month, with less than 10% issues found enabling faster development to production release cycle.",
-          "Developed responsive web pages using TailwindCSS, enhancing cross-device user experience.",
-          "Built and deployed a \"For You\" job recommendation algorithm, achieving a 7% CTR over 8 months.",
-          "Integrated reCAPTCHA v3, reducing spam by 72% on public endpoints.",
-          "Built a React-based admin portal for talent operations, enabling efficient CV reviews and reducing hiring process time by 60%."
-        ]
-      },
-      {
-        "company": "Algorack",
-        "position": "Web Developer",
-        "location": "Karachi, PK",
-        "date": "Jan 2020 -- Dec 2021",
-        "highlights": [
-          "Developed complex D3 charts and custom SVG solutions, enhancing data visualization capabilities.",
-          "Designed and built a short-term drone simulator using Three.js and Vue.js, incorporating mathematical models to educate children in programming."
-        ]
-      }
-    ],
-    "projects": [
-      {
-        "name": "Wave.tickets",
-        "url": "https://www.wave.tickets/",
-        "date": "Jun 2024 -- Oct 2024",
-        "highlights": [
-          "Developed an AI-powered SMS ticket booking system using NestJS, OpenAI, and LangChain, allowing users to book tickets seamlessly through text messages.",
-          "Deployed the Wave.tickets AI server on AWS using command-line tools, handling infra setup end-to-end."
-        ]
-      },
-      {
-        "name": "Ant Colony Optimization",
-        "url": "",
-        "date": "Dec 2023 -- Jan 2024",
-        "highlights": [
-          "Developed a 3D visualization of the Ant Colony Optimization algorithm on a 2D plane using Three.js.",
-          "Simulated real-time ant movement and pheromone trails to demonstrate algorithm dynamics."
-        ]
-      }
-    ],
-    "education_and_certificates": [
-      {
-        "institution": "Mohammad Ali Jinnah University",
-        "credential": "Bachelor of Science in Computer Science",
-        "location": "Karachi, PK",
-        "date": "Oct. 2017 -- Aug 2021",
-        "url": ""
-      },
-      {
-        "institution": "Facebook",
-        "credential": "Hacker Cup 2021",
-        "location": "",
-        "date": "Oct 2021",
-        "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/308662183621724/"
-      },
-      {
-        "institution": "ICPC",
-        "credential": "ICPC Asia Topi Regional",
-        "location": "",
-        "date": "Sep 2021",
-        "url": "https://icpc.global/ICPCID/MH93ISJ2HJ3A/"
-      },
-      {
-        "institution": "Hackerrank",
-        "credential": "Problem Solving (Advanced)",
-        "location": "",
-        "date": "Sep 2020",
-        "url": "https://www.hackerrank.com/certificates/5a1182602eda/"
-      }
-    ],
-    "skills": {
-      "languages": ["Rust", "TypeScript", "JavaScript", "Python", "SQL"],
-      "frameworks_libraries": ["React", "Next.js", "Node.js", "Nest.js", "TailwindCSS", "D3.js", "Three.js", "LangChain"],
-      "infrastructure": ["Redis", "Docker", "Terraform", "AWS", "Sentry", "GitHub Actions"]
+    {
+      "company": "Foundry (YC 24)",
+      "position": "Full Stack Engineer",
+      "location": "US, Remote",
+      "date": "Mar 2025 -- Aug 2025",
+      "highlights": [
+        "Created a Gmail simulation for browser-based AI agents, enabling the testing of email workflows such as reading threads, and sending emails in a controlled environment.",
+        "Built a Playground page showcasing available simulated platforms (e.g., Gmail, Apollo, LinkedIn) so clients could preview the environments the AI agent would interact with.",
+        "Created a centralized data warehouse to provide consistent datasets across simulated platforms (e.g., Gmail, LinkedIn, Apollo).",
+        "Built Foundry's client-facing annotation platform from scratch, enabling creation, assignment, and execution of complex browser-based tasks.",
+        "Developed evaluation and reviewer pages where clients could watch execution recordings and assess results against organization-specific criteria."
+      ]
+    },
+    {
+      "company": "Qureos",
+      "position": "Senior Fullstack / Product Engineer",
+      "location": "UAE, Remote",
+      "date": "Jan 2022 -- Mar 2025",
+      "highlights": [
+        "Developed and shipped an AI-driven candidate screening system using React-based workflows, improving engagement by 25% in top-of-funnel acquisition.",
+        "Spearheaded the development of an AI-powered job description generator, leading to an additional $4,000 in annual revenue through white-labeling.",
+        "Contributed to the product side of Qureos, collaborating with the customer success team to prioritize and implement client requests, and converting 3 clients to pay for quarterly subscriptions.",
+        "Integrated Stripe to securely store multiple payment methods, processing over 50 transactions per month."
+      ]
+    },
+    {
+      "company": "Breaktout Mentors",
+      "position": "USACO Mentor",
+      "location": "US/Singapore, Remote",
+      "date": "Sep 2022 -- May 2024",
+      "highlights": [
+        "Mentored high school students in USACO with a focus on algorithms and competitive problem solving.",
+        "Helped two students progress from Bronze to Gold level through weekly sessions and personalized guidance."
+      ]
+    },
+    {
+      "company": "TechInferno",
+      "position": "Technical Co-Founder / Studio Lead",
+      "location": "Karachi, PK",
+      "date": "Jun 2021 -- Oct 2022",
+      "pagebreak": true,
+      "highlights": [
+        "Co-founded a bootstrapped software studio, successfully setting up the entire engineering workflow.",
+        "Led and mentored a team of 4 developers, driving sprint execution, task delegation, and maintaining code quality.",
+        "Owned the core technical architecture, designing full-stack web applications for all incoming projects.",
+        "Managed product scoping and technical client communication to ensure iterative feature delivery."
+      ]
+    },
+    {
+      "company": "Remotebase",
+      "position": "Software Engineer II",
+      "location": "US, Remote",
+      "date": "Jan 2022 -- Jun 2024",
+      "highlights": [
+        "Contributed as one of the first engineers on a client project, shaping core features and establishing early trust.",
+        "Handled an average of 5 major features per month, with less than 10% issues found enabling faster development to production release cycle.",
+        "Developed responsive web pages using TailwindCSS, enhancing cross-device user experience.",
+        "Built and deployed a \"For You\" job recommendation algorithm, achieving a 7% CTR over 8 months.",
+        "Integrated reCAPTCHA v3, reducing spam by 72% on public endpoints.",
+        "Built a React-based admin portal for talent operations, enabling efficient CV reviews and reducing hiring process time by 60%."
+      ]
+    },
+    {
+      "company": "Algorack",
+      "position": "Web Developer",
+      "location": "Karachi, PK",
+      "date": "Jan 2020 -- Dec 2021",
+      "highlights": [
+        "Developed complex D3 charts and custom SVG solutions, enhancing data visualization capabilities.",
+        "Designed and built a short-term drone simulator using Three.js and Vue.js, incorporating mathematical models to educate children in programming."
+      ]
     }
+  ],
+  "projects": [
+    {
+      "name": "Wave.tickets",
+      "url": "https://www.wave.tickets/",
+      "date": "Jun 2024 -- Oct 2024",
+      "highlights": [
+        "Developed an AI-powered SMS ticket booking system using NestJS, OpenAI, and LangChain, allowing users to book tickets seamlessly through text messages.",
+        "Deployed the Wave.tickets AI server on AWS using command-line tools, handling infra setup end-to-end."
+      ]
+    },
+    {
+      "name": "Ant Colony Optimization",
+      "url": "",
+      "date": "Dec 2023 -- Jan 2024",
+      "highlights": [
+        "Developed a 3D visualization of the Ant Colony Optimization algorithm on a 2D plane using Three.js.",
+        "Simulated real-time ant movement and pheromone trails to demonstrate algorithm dynamics."
+      ]
+    }
+  ],
+  "education_and_certificates": [
+    {
+      "institution": "Mohammad Ali Jinnah University",
+      "credential": "Bachelor of Science in Computer Science",
+      "location": "Karachi, PK",
+      "date": "Oct. 2017 -- Aug 2021",
+      "url": ""
+    },
+    {
+      "institution": "Facebook",
+      "credential": "Hacker Cup 2021",
+      "location": "",
+      "date": "Oct 2021",
+      "url": "https://www.facebook.com/codingcompetitions/hacker-cup/2021/certificate/308662183621724/"
+    },
+    {
+      "institution": "ICPC",
+      "credential": "ICPC Asia Topi Regional",
+      "location": "",
+      "date": "Sep 2021",
+      "url": "https://icpc.global/ICPCID/MH93ISJ2HJ3A/"
+    },
+    {
+      "institution": "Hackerrank",
+      "credential": "Problem Solving (Advanced)",
+      "location": "",
+      "date": "Sep 2020",
+      "url": "https://www.hackerrank.com/certificates/5a1182602eda/"
+    }
+  ],
+  "skills": {
+    "languages": ["Rust", "TypeScript", "JavaScript", "Python", "SQL"],
+    "frameworks_libraries": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "Nest.js",
+      "TailwindCSS",
+      "D3.js",
+      "Three.js",
+      "LangChain"
+    ],
+    "infrastructure": [
+      "Redis",
+      "Docker",
+      "Terraform",
+      "AWS",
+      "Sentry",
+      "GitHub Actions"
+    ]
   }
+}
