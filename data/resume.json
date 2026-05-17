@@ -63,6 +63,7 @@
         "position": "Software Engineer II",
         "location": "US, Remote",
         "date": "Jan 2022 -- Jun 2024",
+        "pagebreak": true,
         "highlights": [
           "Contributed as one of the first engineers on a client project, shaping core features and establishing early trust.",
           "Handled an average of 5 major features per month, with less than 10% issues found enabling faster development to production release cycle.",

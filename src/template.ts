@@ -100,6 +100,7 @@ export function getTemplate(cvData: any, resolve: (val: any) => string): string 
   \\section{Experience}
     \\resumeSubHeadingListStart
     ${cvData.experience.map((exp: any) => `
+      ${exp.pagebreak ? '\\newpage' : ''}
       \\resumeSubheading
         {${resolve(exp.company)}}{${resolve(exp.date)}}
         {${resolve(exp.position)}}{${resolve(exp.location)}}
