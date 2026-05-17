@@ -105,21 +105,21 @@ export function getTemplate(cvData: any, resolve: (val: any) => string): string 
         {${resolve(exp.company)}}{${resolve(exp.date)}}
         {${resolve(exp.position)}}{${resolve(exp.location)}}
         \\resumeItemListStart
-        ${exp.highlights.map((hl: string) => `  \\resumeItem{${resolve(hl)}}`).join('\\n')}
+${exp.highlights.map((hl: string) => `          \\resumeItem{${resolve(hl)}}`).join('\n')}
         \\resumeItemListEnd
       \\vspace{6pt}
-    `).join('\\n')}
+    `).join('\n')}
     \\resumeSubHeadingListEnd
   
   \\section{Projects}
     \\resumeSubHeadingListStart
     ${cvData.projects.map((proj: any) => `
       \\resumeProjectHeading
-        {\\href{${proj.url}}{\\underline{\\textbf{${resolve(proj.name)}}}}}{${resolve(proj.date)}}
+        {${proj.url ? `\\href{${proj.url}}{\\underline{\\textbf{${resolve(proj.name)}}}}` : `\\textbf{${resolve(proj.name)}}`}}{${resolve(proj.date)}}
         \\resumeItemListStart
-        ${proj.highlights.map((hl: string) => `  \\resumeItem{${resolve(hl)}}`).join('\\n')}
+${proj.highlights.map((hl: string) => `          \\resumeItem{${resolve(hl)}}`).join('\n')}
         \\resumeItemListEnd
-    `).join('\\n')}
+    `).join('\n')}
     \\resumeSubHeadingListEnd
   
   \\section{Education/Certificates}
@@ -129,7 +129,7 @@ export function getTemplate(cvData: any, resolve: (val: any) => string): string 
         {${edu.url ? `\\href{${edu.url}}{\\underline{\\textbf{${resolve(edu.credential)}}}}` : `${resolve(edu.credential)}`}}{${resolve(edu.date)}}
         {${resolve(edu.institution)}}{${resolve(edu.location)}}
       \\vspace{6pt}
-    `).join('\\n')}
+    `).join('\n')}
     \\resumeSubHeadingListEnd
   
   \\section{Technical Skills}
