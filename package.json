@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "ts-node src/builder.ts"
+    "build": "ts-node src/builder.ts",
+    "compile": "pdflatex resume.tex"
   },
   "devDependencies": {
     "@types/node": "^22.15.21",
